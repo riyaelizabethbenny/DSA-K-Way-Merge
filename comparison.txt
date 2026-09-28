@@ -1,0 +1,19 @@
+COMPARISON OF K-WAY MIN HEAP AND PAIRWISE MERGE
+
+Input:
+3 sorted lists
+12 total elements
+
+K-way Min Heap:
+Heap size = 3
+Comparisons = 21
+Time Complexity = O(N log K)
+Space Complexity = O(K)
+
+Pairwise Merge:
+Comparisons = 18
+Time Complexity = O(NK)
+Space Complexity = O(N)
+
+Final sorted output:
+10 15 20 30 35 40 50 55 60 70 75 80
